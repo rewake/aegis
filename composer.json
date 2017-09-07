@@ -1,0 +1,32 @@
+{
+  "name": "rewake/aegis",
+  "type": "library",
+  "description": "Aegis security layer for Lumen/Laravel",
+  "keywords": ["aegis", "lumen"],
+  "homepage": "http://github.com",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Richard Komatz",
+      "email": "r.komatz@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/http": "^5.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.7",
+    "nesbot/carbon": "^1.22",
+    "mockery/mockery": "^0.9.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rewake\\Aegis\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-develop": "0.1-dev"
+    }
+  }
+}
